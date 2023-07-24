@@ -10,7 +10,7 @@ const LabPage = () => {
   
   return ( <>
     <SideNavigator/>
-    <MainLayout title='LABS' description={description}>
+    <MainLayout title='LABS' description={description} tagtitle="Department">
       {/* CONTENTS HERE */}
     </MainLayout>
   </> );

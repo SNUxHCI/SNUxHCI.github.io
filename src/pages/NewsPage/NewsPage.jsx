@@ -6,7 +6,7 @@ import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
 const NewsPage = () => {
   return ( <>
     <SideNavigator/>
-    <MainLayout title='NEWS'>
+    <MainLayout title='NEWS' tagtitle='Years'>
       {/* CONTENTS HERE */}
     </MainLayout>
   </> );

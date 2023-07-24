@@ -88,6 +88,15 @@ main{
         // margin
         margin: 0;
       }
+
+    }
+    .tagTitle{
+      margin-top: 2*$smallFontSize;
+      color: #B0B0B0;
+    }
+
+    .mainContent{
+      width: 100%;
     }
 
     @if $devMode{

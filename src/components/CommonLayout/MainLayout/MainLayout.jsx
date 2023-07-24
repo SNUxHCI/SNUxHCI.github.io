@@ -3,7 +3,7 @@ import styles from './MainLayout.module.scss';
 
 import bannerImg from '../../../assets/UI/bannerImg.png';
 
-const MainLayout = ({title, description, children}) => {
+const MainLayout = ({title, description, tagtitle, children}) => {
   return (
     <main>
       <img src={bannerImg} alt="banner" />
@@ -14,6 +14,10 @@ const MainLayout = ({title, description, children}) => {
             {description}
           </p>
         </div>
+        {
+          tagtitle &&
+          <p className={styles.tagTitle}>{tagtitle}</p>
+        }
         <div className={styles.mainContent}>
           {children}
         </div>

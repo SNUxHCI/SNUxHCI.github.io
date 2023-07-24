@@ -6,7 +6,7 @@ import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
 const CoursePage = () => {
   return ( <>
     <SideNavigator/>
-    <MainLayout title='COURSES'>
+    <MainLayout title='COURSES' tagtitle='Filter by:'>
       {/* CONTENTS HERE */}
     </MainLayout>
   </> );
