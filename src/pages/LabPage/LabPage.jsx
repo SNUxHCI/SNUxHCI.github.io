@@ -1,9 +1,18 @@
 import React from 'react';
 
+import SideNavigator from '../../components/CommonLayout/SideNavigator/SideNavigator';
+import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
+
 
 const LabPage = () => {
+
+  const description = 'We are the Human-Computer Interaction Group at Seoul National University, a multidisciplinary research consortium comprised of seven research labs from three distinct colleges.';
+  
   return ( <>
-    <p>LapPage</p>
+    <SideNavigator/>
+    <MainLayout title='LABS' description={description}>
+      {/* CONTENTS HERE */}
+    </MainLayout>
   </> );
 }
  
