@@ -46,6 +46,14 @@ main{
   @if $devMode{
     box-shadow: inset 0 0 0 2px orange;
   }
+
+  // banner
+  img{
+    // size
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
 }
 
 .sideContainer{
