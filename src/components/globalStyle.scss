@@ -16,7 +16,7 @@ $bold: 700;
 }
 
 // font-size
-$smallFontSize: 1.2rem;
+$smallFontSize: 1.3rem;
 $bigFontSize: 2.1 * $smallFontSize;
 
 // size
@@ -31,6 +31,8 @@ $brightgrayColor: #EFEFEF;
 // global styles
 body{
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: $regular;
+  font-size: $smallFontSize;
 }
 
 main{
@@ -54,6 +56,46 @@ main{
     height: 12rem;
     object-fit: cover;
   }
+
+  // padding
+  article{
+    // size
+    width: 86.85%;
+    // center
+    margin: 0 auto;
+
+    .articleHeader{
+      // flex
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      // size
+      width: 100%;
+      margin: 2rem 0;
+
+      h1{
+        // margin
+        margin: 0;
+        margin-right: 3rem;
+
+        // font
+        font-weight: $bold;
+        letter-spacing: 1rem;
+      }
+
+      p{
+        // margin
+        margin: 0;
+      }
+    }
+
+    @if $devMode{
+      box-shadow: inset 0 0 0 2px red;
+    }
+  }
+
+  
 }
 
 .sideContainer{
