@@ -18,6 +18,8 @@ function App() {
         <Route path='/labs' element={<LabPage/>} />
         <Route path='/publications' element={<PublicationPage/>} />
         <Route path='/courses' element={<CoursePage/>} />
+        {/* TODO... in Future... */}
+        <Route path='/community' element={<MainPage/>} />
       </Routes>
     </Router>
   );

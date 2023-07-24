@@ -1,0 +1,69 @@
+@import '../../globalStyle.scss';
+
+.sideContainer{
+  // position
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  // size
+  width: $sideWidth;
+  height: 100vh;
+
+  // background-color
+  background-color: $brightgrayColor;
+
+  .whiteBackground{
+    background-color: white;
+    
+    .logo{
+      // size
+      width: 72%;
+  
+      // center
+      display: block;
+      margin: 0 auto;
+  
+      // margin
+      padding-top: 1.5rem;
+      
+    }
+  
+    .navigatorContainer{
+      // margin
+      margin-left: 14%;
+      margin-top: 3rem;
+      padding-bottom: 3rem;
+  
+      .navWrapper{
+        // flex
+        display: flex;
+        align-items: center;
+  
+        // margin
+        margin-top: 1.8 * $smallFontSize;
+        &:first-child{
+          margin-top: 0;
+        }
+  
+        .arrow{
+          // margin
+          margin-right: $smallFontSize;
+  
+          // size
+          height: $smallFontSize;
+  
+        } 
+        .navItem{
+          // font
+          font-size: $smallFontSize;
+          font-weight: $medium;
+  
+          // margin
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}
