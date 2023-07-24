@@ -34,7 +34,7 @@
       margin-left: 14%;
       margin-top: 3rem;
       padding-bottom: 3rem;
-  
+      
       .navWrapper{
         // flex
         display: flex;
@@ -42,14 +42,10 @@
   
         // margin
         margin-top: 1.8 * $smallFontSize;
-        &:first-child{
-          margin-top: 0;
-        }
   
         .arrow{
           // margin
           margin-right: $smallFontSize;
-  
           // size
           height: $smallFontSize;
   
@@ -58,6 +54,11 @@
           // font
           font-size: $smallFontSize;
           font-weight: $medium;
+
+          color: black;
+          text-decoration: none;
+
+          
   
           // margin
           margin: 0;
