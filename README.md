@@ -12,7 +12,7 @@
 ### Code Structure
 
 - React with node-sass (in *.module.scss form)
-- **Each *.jsx file utilizes a corresponding *.module.scss file located in the same directory.**
+- **Each .jsx file utilizes a corresponding .module.scss file located in the same directory.**
 
 `src`
 
