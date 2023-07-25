@@ -6,7 +6,7 @@ import bannerImg from '../../../assets/UI/bannerImg.png';
 const MainLayout = ({title, description, tagtitle, children}) => {
   return (
     <main>
-      <img src={bannerImg} alt="banner" />
+      <img src={bannerImg} alt="banner" className={styles.banner}/>
       <article>
         <div className={styles.articleHeader}>
           <h1 className={styles.headerTitle}>{title}</h1>

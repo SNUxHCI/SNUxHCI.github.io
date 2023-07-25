@@ -50,10 +50,10 @@ main{
   }
 
   // banner
-  img{
+  .banner{
     // size
     width: 100%;
-    height: 12rem;
+    height: 12rem; // calculated from logo <img>
     object-fit: cover;
   }
 

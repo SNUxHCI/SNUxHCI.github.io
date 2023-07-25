@@ -1,0 +1,29 @@
+@import '../../components/globalStyle.scss';
+
+
+.imgContainer{
+  // size
+  width: 100%;
+  height: 12rem + 2.8*6*$smallFontSize + 1.8*$smallFontSize + 3rem;
+
+  .mainImg{
+    // size
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .UXImg{
+    // size
+    width: 80%;
+
+    // position
+    position: absolute;
+    bottom: 0;
+
+    // center
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
