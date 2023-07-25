@@ -18,23 +18,23 @@
 
 ㄴ `assets`
 
-  ㄴ `UI` : UI related assets (img, video…)
+ㅤㅤㄴ `UI` : UI related assets (img, video…)
 
-  ㄴ …(TBD)
+ㅤㅤㄴ …(TBD)
 
 ㄴ `components`
 
-  ㄴ `globalStyle.scss` : **🚧 You must import this code into each scss code.**
+ㅤㅤㄴ `globalStyle.scss` : **🚧 You must import this code into each scss code.**
 
-  ㄴ `StyledLink` : Custom <Link> component without any style on it.
+ㅤㅤㄴ `StyledLink` : Custom <Link> component without any style on it.
 
-  ㄴ `CommonLayout` : Commonly used Layout components
+ㅤㅤㄴ `CommonLayout` : Commonly used Layout components
 
-  ㄴ … (TBD)
+ㅤㅤㄴ … (TBD)
 
 ㄴ `pages`
 
-  ㄴ `…` : each directory contains *.jsx file and corresponding *module.scss file.
+ㅤㅤㄴ `…` : each directory contains *.jsx file and corresponding *module.scss file.
 
 ### Considering Responsive Web
 
