@@ -3,67 +3,68 @@
 .sideContainer{
   // position
   position: fixed;
-  top: 0;
+  top: 16vh;
   left: 0;
 
   // size
-  width: $sideWidth;
-  height: 100vh;
+  width: 15%;
+  height: 84vh;
+  margin-left: 3%;
 
-  // background-color
-  background-color: $brightgrayColor;
+  // flex
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 
-  .whiteBackground{
-    background-color: white;
-    
-    .logo{
-      // size
-      width: 72%;
-      height: 7.5rem;
-  
-      // center
-      display: block;
-      margin: 0 auto;
-  
+  border: 1px solid green;
+
+  .navigatorContainer{
+    // margin
+    margin-top: toRem(50);
+    padding-bottom: 3rem;
+
+    .navWrapper{
+      // flex
+      display: flex;
+      align-items: center;
+
       // margin
-      padding-top: 1.5rem;
-      padding-bottom: 3rem;
-      
-    }
-  
-    .navigatorContainer{
-      // margin
-      margin-left: 14%;
-      padding-bottom: 3rem;
+      margin-bottom: 1.8 * $smallFontSize;
 
-      .navWrapper{
-        // flex
-        display: flex;
-        align-items: center;
-  
+      .arrow{
         // margin
-        margin-bottom: 1.8 * $smallFontSize;
-  
-        .arrow{
-          // margin
-          margin-right: $smallFontSize;
-          // size
-          height: $smallFontSize;
-        } 
+        margin-right: $smallFontSize;
+        // size
+        height: $smallFontSize;
+      } 
 
-        .navItem{
-          // font
-          font-size: $smallFontSize;
-          font-weight: $medium;
+      .navItem{
+        // font
+        font-size: $smallFontSize;
+        font-weight: $medium;
 
-          color: black;
-          text-decoration: none;
+        color: black;
+        text-decoration: none;
 
-          // margin
-          margin: 0;
-        }
+        // margin
+        margin: 0;
       }
     }
+
+    
+  }
+  .cc{
+    // font
+    color: #AAAAAA;
+    font-size: 0.75*$smallFontSize;
+    
+    // center
+    display: block;
+    margin: 0 auto;
+    
+    // margin
+    margin-bottom: toRem(50);
   }
 
 }

@@ -9,7 +9,7 @@ import Header from '../../components/CommonLayout/Header/Header';
 const AboutPage = () => {
   return ( <>
    <Header/>
-    {/* <SideNavigator/> */}
+    <SideNavigator/>
     {/* <MainLayout title='ABOUT'> */}
       {/* CONTENTS HERE */}
     {/* </MainLayout> */}
