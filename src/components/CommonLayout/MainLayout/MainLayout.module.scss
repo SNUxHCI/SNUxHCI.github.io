@@ -15,8 +15,6 @@ main{
   flex-direction: column;
   justify-content: space-between;
 
-  border: 1px solid blue;
-
   .headerTitle{
     // center
     display: block;
@@ -35,8 +33,5 @@ main{
     // size
     width: 92%;
     margin: 0 auto;
-    height: 500px;
-
-    border: 1px solid red;
   }
 }
