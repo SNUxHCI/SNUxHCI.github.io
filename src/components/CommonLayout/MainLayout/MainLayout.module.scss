@@ -3,12 +3,12 @@
 main{
   // position
   position: absolute;
-  top: 16vh;
-  left: 18%;
+  top: $headerHeight;
+  left: $sideWidth;
 
   // size
-  width: 82%;
-  min-height: 84vh;
+  width: 100% - $sideWidth;
+  min-height: 100vh - $headerHeight;
 
   // flex
   display: flex;
@@ -31,7 +31,7 @@ main{
   }
   article{
     // size
-    width: 92%;
+    width: 100% - (2*$articleHorizontalPadding);
     margin: 0 auto;
   }
 }
