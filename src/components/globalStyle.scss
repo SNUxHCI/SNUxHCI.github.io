@@ -20,8 +20,12 @@ $smallFontSize: 1rem;
 $bigFontSize: 2.1 * $smallFontSize;
 
 // size
-$sideWidth: 23%;
-$sideMain: 77%;
+$mainHorizontalPadding: 3%;
+$articleHorizontalPadding: 4%;
+$headerHeight: 14vh;
+$sideWidth: 19%;
+$footerHeight: 5*$smallFontSize;
+
 
 // color
 $mainColor: #0500FF;

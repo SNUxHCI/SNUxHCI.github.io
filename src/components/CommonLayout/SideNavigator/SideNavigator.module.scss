@@ -3,13 +3,13 @@
 .sideContainer{
   // position
   position: fixed;
-  top: 16vh;
+  top: $headerHeight;
   left: 0;
 
   // size
-  width: 15%;
-  height: 84vh;
-  margin-left: 3%;
+  width: $sideWidth - $mainHorizontalPadding;
+  height: 100vh - $headerHeight;
+  margin-left: $mainHorizontalPadding;
 
   // flex
   display: flex;
@@ -20,7 +20,7 @@
   .navigatorContainer{
     // margin
     margin-top: toRem(50);
-    padding-bottom: 3rem;
+    padding-bottom: 3*$smallFontSize;
 
     .navWrapper{
       // flex
@@ -53,16 +53,18 @@
     
   }
   .cc{
+    // size
+    height: $footerHeight;
+
     // font
     color: #AAAAAA;
     font-size: 0.75*$smallFontSize;
     
     // center
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
     
-    // margin
-    margin-bottom: toRem(50);
   }
 
 }
