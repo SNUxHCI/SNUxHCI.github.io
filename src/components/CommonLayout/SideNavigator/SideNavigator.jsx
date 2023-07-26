@@ -15,21 +15,17 @@ const SideNavigator = () => {
 
   return ( <>
     <div className={styles.sideContainer}>
-      <div className={styles.whiteBackground}>
-        <StyledLink to='/'>
-          <img src={logoImg} alt="logo" className={styles.logo}/>
-        </StyledLink>
-        <div className={styles.navigatorContainer}>
-          {navList.map((nav, i) =>
-            <StyledLink to={`/${nav}`} key={i}>
-              <div className={styles.navWrapper}>
-                <img src={nav==currentLocation? arrowBlueImg : arrowImg} alt="arrow" className={styles.arrow}/>
-                <p className={styles.navItem}>{nav.toUpperCase()}</p>
-              </div>
-            </StyledLink>
-          )}
-        </div>
+      <div className={styles.navigatorContainer}>
+        {navList.map((nav, i) =>
+          <StyledLink to={`/${nav}`} key={i}>
+            <div className={styles.navWrapper}>
+              <img src={nav==currentLocation? arrowBlueImg : arrowImg} alt="arrow" className={styles.arrow}/>
+              <p className={styles.navItem}>{nav.toUpperCase()}</p>
+            </div>
+          </StyledLink>
+        )}
       </div>
+      <p className={styles.cc}>© 2023. SNU HCI GROUP</p>
     </div>
   </> );
 }

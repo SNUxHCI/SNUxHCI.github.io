@@ -16,7 +16,7 @@ $bold: 700;
 }
 
 // font-size
-$smallFontSize: 1.2rem;
+$smallFontSize: 1rem;
 $bigFontSize: 2.1 * $smallFontSize;
 
 // size
@@ -34,82 +34,3 @@ body{
   font-weight: $regular;
   font-size: $smallFontSize;
 }
-
-main{
-  // position
-  position: absolute;
-  top: 0;
-  left: $sideWidth;
-
-  // size
-  width: $sideMain;
-  height: fit-content;
-
-  @if $devMode{
-    box-shadow: inset 0 0 0 2px orange;
-  }
-
-  // banner
-  .banner{
-    // size
-    width: 100%;
-    height: 12rem; // calculated from logo <img>
-    object-fit: cover;
-  }
-
-  // padding
-  article{
-    // size
-    width: 86.85%;
-    // center
-    margin: 0 auto;
-
-    .articleHeader{
-      // flex
-      display: flex;
-      justify-content: space-between;
-      align-items: start;
-
-      // size
-      width: 100%;
-      margin: 2rem 0;
-
-      h1{
-        // margin
-        margin: 0;
-        margin-right: 3rem;
-
-        // font
-        font-weight: $bold;
-        letter-spacing: 1rem;
-      }
-
-      p{
-        // margin
-        margin: 0;
-      }
-
-    }
-    .tagTitle{
-      margin-top: 2*$smallFontSize;
-      color: #B0B0B0;
-    }
-
-    .mainContent{
-      width: 100%;
-    }
-
-    @if $devMode{
-      box-shadow: inset 0 0 0 2px red;
-    }
-  }
-
-  
-}
-
-.sideContainer{
-  @if $devMode{
-    box-shadow: inset 0 0 0 2px green;
-  }
-}
-

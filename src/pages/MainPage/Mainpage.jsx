@@ -1,20 +1,17 @@
 import React from 'react';
 import styles from './MainPage.module.scss';
 
-import mainImg from '../../assets/UI/mainImg.png';
-import UXImg from '../../assets/UI/mainUX.svg';
-
 import SideNavigator from '../../components/CommonLayout/SideNavigator/SideNavigator';
+import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
+import Header from '../../components/CommonLayout/Header/Header';
 
 const MainPage = () => {
   return ( <>
+    <Header/>
     <SideNavigator/>
-    <main>
-      <div className={styles.imgContainer}>
-        <img src={mainImg} alt="mainImg" className={styles.mainImg}/>
-        <img src={UXImg} alt="UX" className={styles.UXImg}/>
-      </div>
-    </main>
+    <MainLayout>
+      {/* CONTENTS HERE */}
+    </MainLayout>
   </> );
 }
  

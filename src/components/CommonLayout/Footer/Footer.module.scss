@@ -1,0 +1,55 @@
+@import '../../globalStyle.scss';
+
+.footerContainer{
+  // size
+  width: 100%;
+  height: 6*$smallFontSize;
+  padding: 0 4%;
+
+  // back
+  background-color: #ECECEC;
+
+  // center
+  display: flex;
+
+
+  .labsContainer{
+    // flex
+    display: flex;
+    align-items: center;
+
+    .labLink{
+      // flex
+      display: flex;
+      align-items: center;
+
+      // remove link decoration
+      text-decoration: none;
+      &:focus, &:hover, &:visited, &:link, &:active{
+        text-decoration: none;
+      }
+      
+      .xImg{
+        // size
+        width: $smallFontSize;
+        // animation
+        transition: all 0.2s ease;
+      }
+      .lab{
+        // margin
+        margin-left: 0.5*$smallFontSize;
+        margin-right: 1.4*$smallFontSize;
+
+        // color
+        color: #4B4B4B;
+      }
+      
+      &:hover{
+        .xImg{
+          transform: rotate(90deg);
+        }
+      }
+
+    }
+  }
+}
