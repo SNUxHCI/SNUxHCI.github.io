@@ -10,9 +10,9 @@ const AboutPage = () => {
   return ( <>
    <Header/>
     <SideNavigator/>
-    {/* <MainLayout title='ABOUT'> */}
+    <MainLayout title='WHO WE ARE'>
       {/* CONTENTS HERE */}
-    {/* </MainLayout> */}
+    </MainLayout>
   </> );
 }
  

@@ -1,1 +1,42 @@
 @import '../../globalStyle.scss';
+
+main{
+  // position
+  position: absolute;
+  top: 16vh;
+  left: 18%;
+
+  // size
+  width: 82%;
+  min-height: 84vh;
+
+  // flex
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border: 1px solid blue;
+
+  .headerTitle{
+    // center
+    display: block;
+    margin: 0 auto;
+
+    // margin
+    margin-top: toRem(50);
+    margin-bottom: toRem(40);
+
+    // font
+    font-size: 1.11*$smallFontSize;
+    letter-spacing: 0.3*$smallFontSize;
+    font-weight: $bold;
+  }
+  article{
+    // size
+    width: 92%;
+    margin: 0 auto;
+    height: 500px;
+
+    border: 1px solid red;
+  }
+}

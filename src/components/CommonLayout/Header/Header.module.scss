@@ -17,6 +17,11 @@
   flex-direction: column;
   justify-content: flex-end;
 
+  // background (for scrollable main)
+  background-color: white;
+  z-index: 2;
+  
+
   border: 1px solid orange;
   
   .wrapper{
