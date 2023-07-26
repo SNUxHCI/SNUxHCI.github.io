@@ -2,41 +2,49 @@
 
 .headerContainer{
   // position
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 
   // size
   width: 100%;
+  height: 16vh;
   padding: 0 toRem(80);
   box-sizing: border-box;
+
+  // flex
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  border: 1px solid orange;
   
   .wrapper{
+    // border: 1px solid red;
+
     // flex
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
 
     // size
-    padding-top: toRem(30);
     padding-bottom: toRem(20);
-    box-sizing: border-box;
     
     // border
     border-bottom: #9F9F9F solid 2px;
-    
+
     .logoLink{
       // size
-      width: 20.08%;
+      height: 10vh;
       .logo{
         // size
-        width: 100%;
+        height: 100%;
       }
     }
   
     .snu{
       // size
-      width: 5.32%;
+      height: 10vh;
     }
   }
 
