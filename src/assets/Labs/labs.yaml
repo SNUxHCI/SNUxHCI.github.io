@@ -1,0 +1,41 @@
+- name: HCI+D
+  fullname: Human-Computer Interaction + Design
+  prof: Joonhwan Lee
+  research: Human-Computer Interaction, Human-AI Interaction, Human-Robot Interaction
+  url: http://hcid.snu.ac.kr/
+
+- name: UX
+  fullname: User Experience
+  prof: Joongseek Lee
+  research: User Experience, Human-Computer Interaction, Human-AI Interaction
+  url: https://ux.snu.ac.kr/
+
+- name: ViBA
+  fullname: Visualization and Business Analytics
+  prof: Hyunwoo Park
+  research: Data Visualization, Graph Neural Network, Business Analytics
+  website: https://hyunwoopark.com/
+
+- name: CC
+  fullname: Cognitive Computing
+  prof: Gahgene Gweon
+  research: Human-Computer Interaction, Natural Language Processing
+  website: http://cclab.snu.ac.kr/
+
+- name: HCS
+  fullname: Human-Centered Computer Systems
+  prof: Youngki Lee
+  research: Mobile and Hyper-realistic Mixed Reality, Deep Learning Platform, Novel Interactions
+  website: https://hcs.snu.ac.kr/
+
+- name: HCI
+  fullname: Human-Computer Interaction
+  prof: Jinwook Seo
+  research: Information Visualization, Visual Analytics, Human-Computer Interaction, Explainable AI
+  website: http://hcil.snu.ac.kr/
+
+- name: HCC
+  fullname: Human-Centered Computing 
+  prof: Bongwon Suh
+  research: Human-Computer Interaction, User Modeling, Natural Language Processing
+  website: http://hcc.snu.ac.kr/wordpress/
