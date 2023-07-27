@@ -4,7 +4,7 @@ import styles from './Footer.module.scss';
 import xImg from '../../../assets/UI/xImg.svg'
 
 const Footer = () => {
-  const labList = ['CC', 'HCC', 'HCS', 'HCI+D', 'HCIL', 'UX', "ViBA"];
+  const labList = ['CC', 'HCC', 'HCS', 'HCI+D', 'HCI', 'UX', "ViBA"];
 
   return ( <>
     <div className={styles.footerContainer}>
