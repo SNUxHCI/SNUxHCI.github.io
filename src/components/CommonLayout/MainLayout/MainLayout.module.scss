@@ -31,7 +31,8 @@ main{
   }
   article{
     // size
-    width: 100% - (2*$articleHorizontalPadding);
-    margin: 0 auto;
+    width: $articleWidth - 2*$articleHorizontalPadding;
+    // center
+    margin-left: $articleHorizontalPadding;
   }
 }

@@ -20,10 +20,11 @@ $smallFontSize: 1rem;
 $bigFontSize: 2.1 * $smallFontSize;
 
 // size
-$mainHorizontalPadding: 3%;
+$mainHorizontalPadding: 4%;
 $articleHorizontalPadding: 4%;
 $headerHeight: 14vh;
 $sideWidth: 19%;
+$articleWidth: (100% - ($sideWidth + $mainHorizontalPadding)) / (100% - $sideWidth) * 100;
 $footerHeight: 5*$smallFontSize;
 
 
