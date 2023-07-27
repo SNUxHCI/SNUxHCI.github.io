@@ -1,0 +1,27 @@
+@import '../../components/globalStyle.scss';
+
+.title {
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.authors {
+	font-size: 1.2rem;
+	margin: 5px 0px;
+	color: #555555;
+}
+
+.venue {
+	font-size: 1.2rem;
+	margin: 5px 0px;
+}
+
+.lab {
+	font-size: 1.1rem;
+	margin: 11px 0px;
+}
+
+a {
+	color: $mainColor;
+}

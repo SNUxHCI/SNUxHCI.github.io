@@ -1,57 +1,22 @@
-- lab: hci
+- lab: HCI
   title: "CLAMS: A Cluster Ambiguity Measure for Estimating Perceptual Variability in Visual Clustering"
   authors: Hyeon Jeon, Ghulam Jilani Quadri, Hyunwook Lee, Paul Rosen, Danielle Albers Szafir, and Jinwook Seo
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG) (Proc. IEEE VIS 2023)
   year: 2023
   month: 10
 
-- lab: hci
+- lab: HCI
   title: "Classes are not Clusters: Improving Label-based Evaluation of Dimensionality Reduction"
   authors: Hyeon Jeon, Yun-Hsin Kuo, Michaël Aupetit, Kwan-Liu Ma, and Jinwook Seo
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG) (Proc. IEEE VIS 2023)
-  year: 2023
-  month: 10
-
-- lab: hci
-  title: "ZADU: A Python Library for Evaluating the Reliability of Dimensionality Reduction Embeddings"
-  authors: Hyeon Jeon, Aeri Cho, Jinhwa Jang, Soohyun Lee, Jake Hyun, Hyung-Kwon Ko, Jaemin Jo, and Jinwook Seo
-  venue: 2023 IEEE Visualization and Visual Analytics (VIS), Melbourne, Australia
-  year: 2023
-  month: 9
-
-
-- lab: hci
-  title: ""
-  authors: ""
-  venue: ""
-  year: 2019
-  month: 10
-
-- lab: hci
-  title: ""
-  authors: ""
-  venue: ""
   year: 2022
   month: 10
 
-- lab: hci
-  title: ""
-  authors: ""
-  venue: ""
+- lab: HCI
+  title: "ZADU: A Python Library for Evaluating the Reliability of Dimensionality Reduction Embeddings"
+  authors: Hyeon Jeon, Aeri Cho, Jinhwa Jang, Soohyun Lee, Jake Hyun, Hyung-Kwon Ko, Jaemin Jo, and Jinwook Seo
+  venue: 2023 IEEE Visualization and Visual Analytics (VIS), Melbourne, Australia
   year: 2021
-  month: 10
+  month: 9
 
-- lab: hci
-  title: ""
-  authors: ""
-  venue: ""
-  year: 2020
-  month: 10
-
-- lab: hci
-  title: ""
-  authors: ""
-  venue: ""
-  year: 2018
-  month: 10
 
