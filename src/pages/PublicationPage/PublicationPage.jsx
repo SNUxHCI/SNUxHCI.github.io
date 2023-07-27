@@ -13,7 +13,8 @@ const PublicationPage = () => {
 
 
 	const fetchPubs = async () => {
-		const pubs 			 = await readYaml(require("../../assets/Pubs/pubs.yaml"));
+		const pubRaw		 = await readYaml(require("../../assets/Pubs/pubs.yaml"));
+		const pubs       = pubRaw.sort((a, b) => a.title.localeCompare(b.title)).sort((a, b) => b.year - a.year);
 		const yearList   = [...new Set(pubs.map(pub => pub.year))].sort((a, b) => b - a);
 		setPubs(pubs);
 		setFilteredPubs(pubs);
@@ -51,7 +52,7 @@ const PublicationPage = () => {
 			<div className={styles.pubContainer}>
 				{filteredPubs.map((pub, index) => {
 					return (
-						<div className={styles.pubItem}>
+						<div className={styles.pubItem} key={index}>
 							<div className={styles.pubInfo}>	
 								<Publication key={index} pub={pub}/>
 							</div>
