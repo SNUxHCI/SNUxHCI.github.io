@@ -15,27 +15,28 @@ main{
   flex-direction: column;
   justify-content: space-between;
 
-  .headerTitle{
-    // size
-    width: $articleWidth - 2*$articleHorizontalPadding;
-
-    // center
-    margin-left: $articleHorizontalPadding;
-    text-align: center;
-
-
-    // margin
-    margin-top: toRem(50);
-
-    // font
-    font-size: 1.11*$smallFontSize;
-    letter-spacing: 0.3*$smallFontSize;
-    font-weight: $bold;
-  }
   article{
     // size
     width: $articleWidth - 2*$articleHorizontalPadding;
     // center
     margin-left: $articleHorizontalPadding;
+
+    .headerTitle{
+      // size
+      width: $articleWidth - 2*$articleHorizontalPadding;
+      
+      // center
+      margin: 0 auto;
+      text-align: center;
+
+      // margin
+      margin-top: toRem(50);
+      margin-bottom: toRem(50);
+  
+      // font
+      font-size: 1.11*$smallFontSize;
+      letter-spacing: 0.3*$smallFontSize;
+      font-weight: $bold;
+    }
   }
 }
