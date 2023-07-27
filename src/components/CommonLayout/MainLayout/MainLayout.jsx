@@ -6,10 +6,10 @@ const MainLayout = ({title, description, tagtitle, children}) => {
 
   return (
     <main>
-      {title &&
-      <h1 className={styles.headerTitle}>{title}</h1>
-      }
       <article>
+        {title &&
+        <h1 className={styles.headerTitle}>{title}</h1>
+        }
         {children}
       </article>
       <Footer/>
