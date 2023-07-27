@@ -1,1 +1,32 @@
 @import '../../components/globalStyle.scss';
+
+
+.container{
+  // size
+  width: 70%;
+  // center
+  margin: 0 auto;
+
+  // flex
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .aboutImg{
+    // size
+    width: 100%;
+    // margin
+    margin-bottom: 2*$smallFontSize;
+  }
+  
+  .description{
+    // size
+    width: 60%;
+    // font
+    font-size: $smallFontSize;
+    text-align: center;
+    .bold{
+      font-weight: $bold;
+    }
+  }
+}
