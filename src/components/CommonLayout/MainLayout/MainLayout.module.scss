@@ -16,13 +16,16 @@ main{
   justify-content: space-between;
 
   .headerTitle{
+    // size
+    width: $articleWidth - 2*$articleHorizontalPadding;
+
     // center
-    display: block;
-    margin: 0 auto;
+    margin-left: $articleHorizontalPadding;
+    text-align: center;
+
 
     // margin
     margin-top: toRem(50);
-    margin-bottom: toRem(40);
 
     // font
     font-size: 1.11*$smallFontSize;
