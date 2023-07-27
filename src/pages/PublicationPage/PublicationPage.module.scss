@@ -37,4 +37,32 @@ div {
 
 	}
 
+	.pubContainer {
+		margin: 30px 0px;
+	}
+
+	.pubItem {
+		display: flex;
+	}
+
+	.pubInfo {
+		width: 80%;
+	}
+
+	.pubLink {
+		width: 10%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.pubHref {
+		width: 30%;
+	}
+
+	.logo {
+		transform: translateY(-40%);
+	}
+
 }

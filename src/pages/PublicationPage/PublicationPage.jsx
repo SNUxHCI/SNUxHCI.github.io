@@ -5,6 +5,7 @@ import SideNavigator from '../../components/CommonLayout/SideNavigator/SideNavig
 import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
 import Header from '../../components/CommonLayout/Header/Header';
 import Publication from './Publication';
+import linkImg from "../../assets/UI/link.svg";
 
 import { readYaml } from '../../functions/readYaml';
 
@@ -47,10 +48,19 @@ const PublicationPage = () => {
 						</div>
 				)})}
 			</div>
-			<div>
+			<div className={styles.pubContainer}>
 				{filteredPubs.map((pub, index) => {
 					return (
-						<Publication key={index} pub={pub}/>
+						<div className={styles.pubItem}>
+							<div className={styles.pubInfo}>	
+								<Publication key={index} pub={pub}/>
+							</div>
+							<div className={styles.pubLink}>
+								<a href={""} className={styles.pubHref} target='_blank'>
+									<img src={linkImg} alt="logo"  width={"100%"}/>
+								</a>
+							</div>
+						</div>
 					)
 				})}
 			</div>

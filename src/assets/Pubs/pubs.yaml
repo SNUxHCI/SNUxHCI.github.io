@@ -3,20 +3,94 @@
   authors: Hyeon Jeon, Ghulam Jilani Quadri, Hyunwook Lee, Paul Rosen, Danielle Albers Szafir, and Jinwook Seo
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG) (Proc. IEEE VIS 2023)
   year: 2023
-  month: 10
 
 - lab: HCI
   title: "Classes are not Clusters: Improving Label-based Evaluation of Dimensionality Reduction"
   authors: Hyeon Jeon, Yun-Hsin Kuo, Michaël Aupetit, Kwan-Liu Ma, and Jinwook Seo
   venue: IEEE Transactions on Visualization and Computer Graphics (TVCG) (Proc. IEEE VIS 2023)
-  year: 2022
-  month: 10
+  year: 2023
 
 - lab: HCI
   title: "ZADU: A Python Library for Evaluating the Reliability of Dimensionality Reduction Embeddings"
   authors: Hyeon Jeon, Aeri Cho, Jinhwa Jang, Soohyun Lee, Jake Hyun, Hyung-Kwon Ko, Jaemin Jo, and Jinwook Seo
-  venue: 2023 IEEE Visualization and Visual Analytics (VIS), Melbourne, Australia
+  venue: In Proceedings of the 2023 IEEE Visualization and Visual Analytics (VIS), Melbourne, Australia
+  year: 2023
+
+- lab: HCI
+  title: "Large-scale Text-to-Image Generation Models for Visual Artists' Creative Works"
+  authors: Hyung-Kwon Ko, Gwanmo Park, Hyeon Jeon, Jaemin Jo, Juho Kim, and Jinwook Seo
+  venue: In Proceedings of the 28th International Conference on Intelligent User Interface (IUI '23)
+  year: 2023
+
+- lab: HCI
+  title: "DataHalo: A Customizable Notification Visualization System for Personalized and Longitudinal Interactions"
+  authors: GuHyun Han, Jaehun Jung, Young-Ho Kim, and Jinwook Seo
+  venue: In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)
+  year: 2023
+
+- lab: HCI
+  title: "RCMVis: A Visual Analytics System for Route Choice Modeling"
+  authors: DongHwa Shin, Jaemin Jo, Bohyoung Kim, Hyunjoo Song, Shin-Hyung Cho, and Jinwook Seo
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  year: 2023
+
+
+- lab: HCI
+  title: "Augmenting Parallel Coordinates Plots with Color-coded Stacked Histograms"
+  authors: Jinwook Bok, Bohyoung Kim, and Jinwook Seo
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  year: 2022
+
+- lab: HCI
+  title: "We-toon: A Communication Support System between Writers and Artists in Collaborative Webtoon Sketch Revision"
+  authors: Hyung-Kwon Ko, Subin An, Gwanmo Park, Seung Kwon Kim, Daesik Kim, Bohyoung Kim, Jaemin Jo, and Jinwook Seo
+  venue: In The 35th Annual ACM Symposium on User Interface Software and Technology (UIST ’22)
+  year: 2022
+
+- lab: HCI
+  title: "Uniform Manifold Approximation with Two-phase Optimization"
+  authors: Hyeon Jeon, Hyung-Kwon Ko, Soohyun Lee, Jaemin Jo, and Jinwook Seo
+  venue: In Proceedings of the 2022 IEEE Visualization and Visual Analytics (VIS)
+  year: 2022
+
+- lab: HCI
+  title: "VANT: A Visual Analytics System for Refining Parallel Corpora in Neural Machine Translation"
+  authors: Sebeom Park, Soohyun Lee, Youngtaek Kim, Hyeon Jeon, Seokweon Jung, Jinwook Bok, and Jinwook Seo
+  venue: In Proceedings of the 15th IEEE Pacific Visualization Symposium (PacificVis '22), Tsukuba, Japan
+  year: 2022
+
+- lab: HCI
+  title: "Measuring and Explaining the Inter-Cluster Reliability of Multidimensional Projections"
+  authors: Hyeon Jeon, Hyung-Kwon Ko, Jaemin Jo, Youngtaek Kim, and Jinwook Seo
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG) (Proc. IEEE VIS 2021)
   year: 2021
-  month: 9
 
+- lab: HCI
+  title: "Papers101: Supporting the Discovery Process in the Literature Review Workflow for Novice Researchers"
+  authors: Kiroong Choe, Seokweon Jung, Seokhyeon Park, Hwajung Hong, and Jinwook Seo
+  venue: In Proceedings of the 14th IEEE Pacific Visualization Symposium (PacificVis '21)
+  year: 2021
 
+- lab: HCI
+  title: "Visualization Support for Multi-criteria Decision Making in Software Issue Propagation"
+  authors: Youngtaek Kim, Hyeon Jeon, Young-Ho Kim, Yuhoon Ki, Hyunjoo Song, and Jinwook Seo
+  venue: In Proceedings of the 14th IEEE Pacific Visualization Symposium (PacificVis '21)
+  year: 2021
+
+- lab: HCI
+  title: "Interactive Visualization for Exploring Information Fragments in Software Repositories"
+  authors: Youngtaek Kim, Hyeon Jeon, Kiroong Choe, Hyunjoo Song, Bohyoung Kim, and Jinwook Seo
+  venue: In Proceedings of the 14th IEEE Pacific Visualization Symposium (PacificVis '21)
+  year: 2021
+
+- lab: HCI
+  title: "A Mixed-Initiative Approach to Extract Data from Pictures of Medical Invoice"
+  authors: Seokweon Jung, Kiroong Choe, Seokhyeon Park, Hyung-Kwon Ko, Youngtaek Kim, and Jinwook Seo
+  venue: In proceedings of the 14th IEEE Pacific Visualization Symposium (PacificVis '21)
+  year: 2021
+
+- lab: HCI
+  title: "ProReveal: Progressive Visual Analytics with Safeguards"
+  authors: Jaemin Jo, Sehi L'Yi, Bongshin Lee, and Jinwook Seo
+  venue: IEEE Transaction on Visualization and Computer Graphics (TVCG)
+  year: 2021
