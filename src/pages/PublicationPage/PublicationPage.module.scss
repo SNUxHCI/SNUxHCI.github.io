@@ -47,10 +47,11 @@ div {
 
 	.pubInfo {
 		width: 80%;
+		border-bottom: $grayColor 3px solid;
 	}
 
 	.pubLink {
-		width: 12%;
+		width: 19%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -58,8 +59,8 @@ div {
 	}
 
 	.pubHref {
-		width: 25%;
-		transform: translateY(-40%);
+		width: 17%;
+		transform: translateY(-20%);
 	}
 
 
