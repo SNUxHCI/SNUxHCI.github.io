@@ -34,6 +34,12 @@ const NewsPage = () => {
 		setYearList(["All", ...yearList.slice(0, 3), "Past"]);
   }
 
+  const updateSelectedYear = (year) => {
+		setSelectedYear(year);
+		setFilteredNews(year == "All" ? news : news.filter(news => news.year == year));
+	}
+
+
   useEffect(() => { fetchNews(); }, []);
 
 
@@ -42,7 +48,18 @@ const NewsPage = () => {
     <SideNavigator/>
     <MainLayout title='NEWS'>
       <div className={styles.container}>
-        {/* select menu */}
+
+        <div className={styles.yearList}>
+          {yearList.map((year, index) => {
+            return (
+              <div className={styles.yearSelection} key={index}>
+                <h4 
+                  className={selectedYear == year ? styles.yearSelectedTitle : styles.yearTitle}
+                  onClick={() => updateSelectedYear(year)}
+                >{year}</h4>
+              </div>
+          )})}
+        </div>
 
         <div className={styles.newsWrapper}>
         {
