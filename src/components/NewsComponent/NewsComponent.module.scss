@@ -1,1 +1,35 @@
 @import '../globalStyle.scss';
+
+.container{
+  // size
+  width: 45.5%;
+  &:nth-child(odd){
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  &:nth-child(even){
+    padding-right: 3%;
+  }
+
+  .thumbnail{
+    // size
+    width: 100%;
+  }
+  .title{
+    // margin
+    margin: 0;
+    margin-top: 0.5*$smallFontSize;
+    margin-bottom: 0.3*$smallFontSize;
+    // font
+    font-size: $smallFontSize;
+    font-weight: $bold;
+    text-decoration: underline;
+  }
+  .date{
+    // margin
+    margin: 0;
+    margin-bottom: 1.4*$smallFontSize;
+    // font
+    font-size: 0.9*$smallFontSize;
+  }
+}

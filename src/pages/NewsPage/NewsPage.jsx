@@ -41,11 +41,16 @@ const NewsPage = () => {
     <Header/>
     <SideNavigator/>
     <MainLayout title='NEWS'>
-      {
-        filteredNews.map((news, i) =>
-        <NewsComponent key={i} title={news.title} date={news.date} thumbnail={getImgPathFromDate(news.date)}/>
-      )}
+      <div className={styles.container}>
+        {/* select menu */}
 
+        <div className={styles.newsWrapper}>
+        {
+          filteredNews.map((news, i) =>
+          <NewsComponent key={i} title={news.title} date={news.date} thumbnail={getImgPathFromDate(news.date)}/>
+          )}
+        </div>
+      </div>
     </MainLayout>
   </> );
 }
