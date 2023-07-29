@@ -17,32 +17,32 @@
   dept: Data Science
   prof: Hyunwoo Park
   research: Data Visualization, Graph Neural Network, Business Analytics
-  website: https://hyunwoopark.com/
+  url: https://hyunwoopark.com/
 
 - name: CC
   fullname: Cognitive Computing
   dept: Convergence Science and Technology
   prof: Gahgene Gweon
-  research: Human-Computer Interaction, Natural Language Processing
-  website: http://cclab.snu.ac.kr/
+  research: Human-Computer Interaction, Natural Language Processing, Educational Data Anaylsis, Smart Devices
+  url: http://cclab.snu.ac.kr/
 
 - name: HCS
   fullname: Human-Centered Computer Systems
   dept: Computer Science and Engineering
   prof: Youngki Lee
   research: Mobile and Hyper-realistic Mixed Reality, Deep Learning Platform, Novel Interactions
-  website: https://hcs.snu.ac.kr/
+  url: https://hcs.snu.ac.kr/
 
 - name: HCI
   fullname: Human-Computer Interaction
   dept: Computer Science and Engineering
   prof: Jinwook Seo
   research: Information Visualization, Visual Analytics, Human-Computer Interaction, Explainable AI
-  website: http://hcil.snu.ac.kr/
+  url: http://hcil.snu.ac.kr/
 
 - name: HCC
   fullname: Human-Centered Computing 
   dept: Convergence Science and Technology
   prof: Bongwon Suh
   research: Human-Computer Interaction, User Modeling, Natural Language Processing
-  website: http://hcc.snu.ac.kr/wordpress/
+  url: http://hcc.snu.ac.kr/wordpress/

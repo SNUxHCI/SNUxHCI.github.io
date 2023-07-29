@@ -6,6 +6,7 @@ import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
 import Header from '../../components/CommonLayout/Header/Header';
 
 import { readYaml } from '../../functions/readYaml';
+import Lab from './Lab';
 
 const LabPage = () => {
 
@@ -28,14 +29,17 @@ const LabPage = () => {
 		}
 		
 		setLabs(labs);
+		setFilteredLabs(labs);
 		setDepts(deptsReshaped);
 	}
 
 	const updateSelectedDept = (dept) => {
 		setSelectedDept(dept);
+		setFilteredLabs(dept == "All" ? labs : labs.filter(lab => lab.dept == dept));
 	}
 
 	const [labs, setLabs] = useState([]);
+	const [filteredLabs, setFilteredLabs] = useState([]);
 	const [depts, setDepts] = useState([]);
 	const [selectedDept, setSelectedDept] = useState("All");
 
@@ -64,7 +68,11 @@ const LabPage = () => {
 						</div>
 					)
 				})}
-				
+			</div>
+			<div className={styles.labList}>
+				{filteredLabs.map((lab, index) => {
+					return ( <Lab lab={lab} key={index}/> )
+				})}
 			</div>
     </MainLayout>
   </> );
