@@ -1,6 +1,8 @@
 import React from "react";
 import styles from './Lab.module.scss';
 
+import linkImg from "../../assets/UI/link.svg";
+
 
 const Lab = (props) => {
 
@@ -21,7 +23,12 @@ const Lab = (props) => {
 				}
 			</div>
 			<div className={styles.labDesc}>
-				<h4 className={styles.labName}>{`${name} LAB`}</h4>
+				<div className={styles.labNameWrapper}>
+					<h4 className={styles.labName}>{`${name} LAB`}</h4>
+					<a href={url} target="_blank">
+						<img src={linkImg} alt="logo" width={"60%"} className={styles.labLink} />
+					</a>
+				</div>
 				<p className={styles.labShortDesc}>{`${fullname} Lab.`}</p>
 				<p className={styles.labShortDesc}>{`Prof. ${prof}`}</p>
 				<p className={styles.labResearchDesc}>{"Research Area:"}</p>
