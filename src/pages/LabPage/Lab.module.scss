@@ -1,6 +1,6 @@
 @import '../../components/globalStyle.scss';
 
-.labLogo {
+.labImgWrapper {
 	
 	width: 155px;
 	height: 0px;
@@ -17,6 +17,11 @@
 	border: 0.5px solid #E4E4E4;
 	background: #FFF;
 	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: relative;
 }
 
 .labInfo {
@@ -60,4 +65,20 @@
 	padding: 2px 10px;
 	margin-right: 5px;
 	margin-top: 5px;
+}
+
+
+
+.labImg {
+	width: 55%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.labImgFake {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0
 }
