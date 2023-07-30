@@ -6,6 +6,7 @@ import MainLayout from '../../components/CommonLayout/MainLayout/MainLayout';
 import Header from '../../components/CommonLayout/Header/Header';
 
 import { readYaml } from '../../functions/readYaml';
+import Course from './Course';
 
 const CoursePage = () => {
 
@@ -13,8 +14,8 @@ const CoursePage = () => {
 	const [instructorFilter, setInstructorFilter] = useState(null);
 	const [termFilter, setTermFilter] = useState(null);
 
-	const [courses, setCourses] = useState(null);
-	const [filteredCourses, setFilteredCourses] = useState(null);
+	const [courses, setCourses] = useState([]);
+	const [filteredCourses, setFilteredCourses] = useState([]);
 	const [deptList, setDeptList] = useState([]);
 	const [instructorList, setInstructorList] = useState([]);
 	const [termList, setTermList] = useState([]);
@@ -40,15 +41,25 @@ const CoursePage = () => {
 	}
 
 	const updateFilteredCourses = (filterInfo, value) => {
+		if (value == "All") value = null;
 		let filteredCourses = [...courses];
-		if (filterInfo.name == "Department") filteredCourses = filteredCourses.filter(course => course.department == value);
-		else if (deptFilter)                 filteredCourses = filteredCourses.filter(course => course.department == deptFilter);
 
-		if (filterInfo.name == "Instructor") filteredCourses = filteredCourses.filter(course => course.instructor == value);
-		else if (instructorFilter)           filteredCourses = filteredCourses.filter(course => course.instructor == instructorFilter);
+		if (filterInfo.name == "Department") {
+			if (value != null) filteredCourses = filteredCourses.filter(course => course.department == value);
+		}
+		
+		else if (deptFilter) filteredCourses = filteredCourses.filter(course => course.department == deptFilter);
 
-		if (filterInfo.name == "Term") filteredCourses = filteredCourses.filter(course => course.term == value);
-		else if (termFilter)           filteredCourses = filteredCourses.filter(course => course.term == termFilter);
+		if (filterInfo.name == "Instructor")  {
+			if (value != null) filteredCourses = filteredCourses.filter(course => course.instructor == value);
+		}
+		
+		else if (instructorFilter) filteredCourses = filteredCourses.filter(course => course.instructor == instructorFilter);
+
+		if (filterInfo.name == "Term") {
+			if (value != null) filteredCourses = filteredCourses.filter(course => course.term == value);
+		}
+		else if (termFilter) filteredCourses = filteredCourses.filter(course => course.term == termFilter);
 
 		setFilteredCourses(filteredCourses);
 	}
@@ -90,7 +101,9 @@ const CoursePage = () => {
 			</div>
 			<div className={styles.courseList}>
 				{filteredCourses.map((course, index) => {
-					
+					return (
+						<Course course={course} key={index}/>
+					)
 				})}
 			</div>
     </MainLayout>
