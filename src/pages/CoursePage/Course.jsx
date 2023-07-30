@@ -23,7 +23,7 @@ const Course = (props) => {
 			<p ref={descRef}></p>
 			<div className={styles.courseShortDesc}>
 				<h4>{"Instructor: "}</h4>
-				<h4 className={styles.courseShortDescContents}>{instructor}</h4>
+				<h4 className={styles.courseShortDescContents}>{`Prof. ${instructor}`}</h4>
 			</div>
 			<div className={styles.courseShortDesc}>
 				<h4>{"Department: "}</h4>

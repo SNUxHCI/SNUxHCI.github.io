@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from './CoursePage.module.scss';
 
 import SideNavigator from '../../components/CommonLayout/SideNavigator/SideNavigator';
@@ -20,11 +20,17 @@ const CoursePage = () => {
 	const [instructorList, setInstructorList] = useState([]);
 	const [termList, setTermList] = useState([]);
 
+	const deptFilterRef = useRef(null);
+	const instructorFilterRef = useRef(null);
+	const termFilterRef = useRef(null);
+
+
 	const filterInfoList = [
-		{ name: "Department", option: deptList, state: deptFilter, setState: setDeptFilter },
-		{ name: "Instructor", option: instructorList, state: instructorFilter, setState: setInstructorFilter },
-		{ name: "Term", option: termList, state: termFilter, setState: setTermFilter }
+		{ name: "Department", option: deptList, state: deptFilter, setState: setDeptFilter, ref: deptFilterRef },
+		{ name: "Instructor", option: instructorList, state: instructorFilter, setState: setInstructorFilter, ref: instructorFilterRef },
+		{ name: "Term", option: termList, state: termFilter, setState: setTermFilter, ref: termFilterRef }
 	]
+
 
 
 	const fetchCourses = async () => {
@@ -47,13 +53,11 @@ const CoursePage = () => {
 		if (filterInfo.name == "Department") {
 			if (value != null) filteredCourses = filteredCourses.filter(course => course.department == value);
 		}
-		
 		else if (deptFilter) filteredCourses = filteredCourses.filter(course => course.department == deptFilter);
 
 		if (filterInfo.name == "Instructor")  {
 			if (value != null) filteredCourses = filteredCourses.filter(course => course.instructor == value);
 		}
-		
 		else if (instructorFilter) filteredCourses = filteredCourses.filter(course => course.instructor == instructorFilter);
 
 		if (filterInfo.name == "Term") {
@@ -62,6 +66,19 @@ const CoursePage = () => {
 		else if (termFilter) filteredCourses = filteredCourses.filter(course => course.term == termFilter);
 
 		setFilteredCourses(filteredCourses);
+	}
+
+	const resetFilter = () => {
+		setDeptFilter(null);
+		setInstructorFilter(null);
+		setTermFilter(null);
+		setFilteredCourses(courses);
+
+		deptFilterRef.current.value = "All";
+		instructorFilterRef.current.value = "All";
+		termFilterRef.current.value = "All";
+
+
 	}
 
 	useEffect(() => { fetchCourses(); }, []);
@@ -83,6 +100,7 @@ const CoursePage = () => {
 							<div className={styles.filterOption}>
 								{/* Dropdown menu to select option */}
 								<select 
+									ref={filterInfo.ref}
 									className={styles.filterSelect} 
 									onChange={(e) => { filterInfo.setState(e.target.value); updateFilteredCourses(filterInfo, e.target.value); }}
 								>
@@ -95,7 +113,7 @@ const CoursePage = () => {
 						</div>
 					)
 				})}
-				<div className={styles.courseResetDesc}>
+				<div className={styles.courseResetDesc} onClick={resetFilter}>
 					{"reset all"}
 				</div>
 			</div>
