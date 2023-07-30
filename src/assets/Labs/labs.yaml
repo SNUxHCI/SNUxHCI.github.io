@@ -1,41 +1,61 @@
 - name: HCI+D
   fullname: Human-Computer Interaction + Design
+  dept: Communications
   prof: Joonhwan Lee
   research: Human-Computer Interaction, Human-AI Interaction, Human-Robot Interaction
   url: http://hcid.snu.ac.kr/
+  logo: hcid
+  profphoto: joonhwan
 
 - name: UX
   fullname: User Experience
+  dept: Convergence Science and Technology
   prof: Joongseek Lee
   research: User Experience, Human-Computer Interaction, Human-AI Interaction
   url: https://ux.snu.ac.kr/
+  logo: ux
+  profphoto: joongseek
 
 - name: ViBA
   fullname: Visualization and Business Analytics
+  dept: Data Science
   prof: Hyunwoo Park
   research: Data Visualization, Graph Neural Network, Business Analytics
-  website: https://hyunwoopark.com/
+  url: https://hyunwoopark.com/
+  profphoto: hyunwoo
 
 - name: CC
   fullname: Cognitive Computing
+  dept: Convergence Science and Technology
   prof: Gahgene Gweon
-  research: Human-Computer Interaction, Natural Language Processing
-  website: http://cclab.snu.ac.kr/
+  research: Human-Computer Interaction, Natural Language Processing, Educational Data Anaylsis, Smart Devices
+  url: http://cclab.snu.ac.kr/
+  logo: cc
+  profphoto: gahgene
 
 - name: HCS
   fullname: Human-Centered Computer Systems
+  dept: Computer Science and Engineering
   prof: Youngki Lee
   research: Mobile and Hyper-realistic Mixed Reality, Deep Learning Platform, Novel Interactions
-  website: https://hcs.snu.ac.kr/
+  url: https://hcs.snu.ac.kr/
+  logo: hcs
+  profphoto: youngki
 
 - name: HCI
   fullname: Human-Computer Interaction
+  dept: Computer Science and Engineering
   prof: Jinwook Seo
   research: Information Visualization, Visual Analytics, Human-Computer Interaction, Explainable AI
-  website: http://hcil.snu.ac.kr/
+  url: http://hcil.snu.ac.kr/
+  logo: hci
+  profphoto: jinwook
 
 - name: HCC
   fullname: Human-Centered Computing 
+  dept: Convergence Science and Technology
   prof: Bongwon Suh
   research: Human-Computer Interaction, User Modeling, Natural Language Processing
-  website: http://hcc.snu.ac.kr/wordpress/
+  url: http://hcc.snu.ac.kr/wordpress/
+  logo: hcc
+  profphoto: bongwon

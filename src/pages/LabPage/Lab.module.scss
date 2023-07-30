@@ -1,0 +1,114 @@
+@import '../../components/globalStyle.scss';
+
+.labImgWrapper {
+	
+	width: 155px;
+	height: 0px;
+	padding-bottom: 155px;
+	
+	@media (min-width: 1024px) {
+		width: 24%;
+		padding-bottom: 24%;
+	}
+
+	@media (min-width: 1440px) {
+		width: 212px;
+		padding-bottom: 212px;
+	}
+
+
+
+	border-radius: 21px;
+	border: 0.5px solid #E4E4E4;
+	background: #FFF;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	position: relative;
+}
+
+.labInfo {
+	margin: 4.5%;
+	display: flex;
+	
+}
+
+.labName {
+	margin-top: 0px;
+	font-size: 1.4rem;
+	margin-bottom: 1.5%;
+}
+
+.labDesc {
+	width: 75%;
+	padding-left: 5%;
+	position: relative;
+}
+
+.labDescChild {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+.labShortDesc {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-size:0.9rem;
+}
+
+.labResearchDesc {
+	margin-top: 2%;
+	margin-bottom: 0px;
+	font-size: 0.9rem;
+}
+
+.labResearchWrapper {
+	display: flex;
+}
+
+.labResearch {
+	border-radius: 20px;
+	font-size: 0.7rem;
+	background-color: $brightgrayColor;
+	padding: 2px 10px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+
+
+.labImg {
+	width: 55%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.profImg {
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+}
+
+.labImgFake {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0
+}
+
+.labNameWrapper {
+	display: flex;
+}
+
+.labLink {
+	margin-bottom: 1.5%;
+	margin-left: 5px;
+	transform: translateY(30%);
+}
