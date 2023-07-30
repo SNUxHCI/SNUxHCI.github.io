@@ -1,0 +1,37 @@
+@import '../../components/globalStyle.scss';
+
+.courseFilterDesc {
+	font-size: 1.2rem;
+	color: #aaa;
+}
+
+
+.singleFilter {
+	display: flex;
+	margin-right: 25px;
+}
+
+.courseFilter {
+	display: flex;
+	margin-top: 14px;
+
+}
+
+.filterName {
+	font-size: 1.2rem;
+	margin-right: 10px;
+}
+
+.filterSelect {
+	border-radius: 20px;
+	background: #EFEFEF;
+	padding: 3px 5px;
+	border: 0;
+	margin-top: 2px;
+}
+
+.courseResetDesc {
+	font-size: 1.2rem;
+	color: #aaa;
+	text-decoration: underline;
+}

@@ -14,7 +14,6 @@ const Lab = (props) => {
 	const logo      = props.lab.logo;
 	const profPhoto = props.lab.profphoto;
 
-	console.log(name, fullname, url, prof, research, logo)
 
 	const [mouseOver, setMouseOver] = useState(false);
 
