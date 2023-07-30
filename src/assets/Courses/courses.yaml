@@ -1,0 +1,25 @@
+- title: Human-Computer Interaction
+  instructor: Jinwook Seo
+  department: Computer Science and Engineering
+  term: Spring
+  description: This course introduces the fundamental components and practical techniques of Human-Computer Interaction which is a field of study on designing, implementing, and evaluating interactive computing systems for human use. It starts with studying designs of everyday objects to help students to realize the importance of the efficient design of interactive computing systems. Then, HCI theories and techniques on how to involve users in designing and evaluating interactive computing systems will be covered. In this course, students have a chance to apply the HCI theories and techniques to solving practical problems while designing and implementing a team project throughout the semester.
+
+- title: Information Visualization and Visual Analytics
+  instructor: Jinwook Seo
+  department: Computer Science and Engineering
+  term: Fall
+  description: 'Information visualization is a research field that focuses on visual representations and interaction techniques to help users analyze and understand large "abstract" data. Information visualization is an interdisciplinary area where theories and techniques established in many research areas such as human-computer interaction, computer graphics, cognitive psychology, and database are fused together. <br/> <br/>  The objectives of this course are: <br/> - Study the background and the principles of information visualization <br/> - Learn about existing information visualization techniques and systems <br/> - Grain understanding of evaluation methods for information visualization techniques/systems <br/> - Learn how to critique existing visualization techniques and systems <br/> - Build experience on coming up with new information visualization design'
+
+- title: Mobile and Ubiquitous Computing
+  instructor: Youngki Lee
+  department: Computer Science and Engineering
+  term: Spring
+  description: Computing services are penetrating every facet of people’s lives and various industry sectors, enabled by advances in consumer devices such as smartphones, wearables, IoT devices, AR/VR devices along with cloud and edge computing services. This is quickly making Mark Weiser’s vision of ubiquitous computing into reality. Mobile computing systems can be considered as the first step towards ubiquitous computing, which is significantly different from conventional computing systems. They require highly coordinated operations of heterogeneous sensor devices for continuous monitoring of users and surroundings, multi-staged distributed systems to process deep/big sensor data, automated actuators based on uncertain inference results. Furthermore, it is essential to design highly personalized and adaptive system interfaces considering the diversity of users and their situations. In this course, students are expected to learn, apply, and improve core technologies to design and develop mobile computing technologies successfully. The topics will include software systems for smartphones and IoT/wearable/VR/AR devices, machine learning pipelines to extract insights from noisy sensing data, distributed system architecture for efficient mobile computing services, innovative interface and application design, etc.
+
+
+- title: Mobile Computing and Applications
+  instructor: Youngki Lee
+  department: Computer Science and Engineering
+  term: Fall
+  description: 'Currently, computing technology and wireless communication enable us to handle multimedia information "anytime, anyplace". This type of mobile computing systems consist of three different but interrelated structural components: end-terminals, networks and OS/middleware, all of which are integrated to provide application services. Mobile computing is based on distributed computing and embedded system technology and applied to ubiquitous systems, mobile commerce, mobile phones, etc. The objectives of this course are to understand the state of the art of mobile computing technologies, and to get familiar with the development of application software for terminal devices.'
+
