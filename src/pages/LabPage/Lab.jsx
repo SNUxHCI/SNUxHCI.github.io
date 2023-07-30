@@ -32,21 +32,23 @@ const Lab = (props) => {
 				}
 			</div>
 			<div className={styles.labDesc}>
-				<div className={styles.labNameWrapper}>
-					<h4 className={styles.labName}>{`${name} LAB`}</h4>
-					<a href={url} target="_blank">
-						<img src={linkImg} alt="logo" width={"60%"} className={styles.labLink} />
-					</a>
-				</div>
-				<p className={styles.labShortDesc}>{`${fullname} Lab.`}</p>
-				<p className={styles.labShortDesc}>{`Prof. ${prof}`}</p>
-				<p className={styles.labResearchDesc}>{"Research Area:"}</p>
-				<div className={styles.labResearchWrapper}>
-					{research.map((research, index) => {
-						return (
-							<div className={styles.labResearch} key={index}>{research}</div>
-						)
-					})}
+				<div className={styles.labDescChild}>
+					<div className={styles.labNameWrapper}>
+						<h4 className={styles.labName}>{`${name} LAB`}</h4>
+						<a href={url} target="_blank">
+							<img src={linkImg} alt="logo" width={"60%"} className={styles.labLink} />
+						</a>
+					</div>
+					<p className={styles.labShortDesc}>{`${fullname} Lab.`}</p>
+					<p className={styles.labShortDesc}>{`Prof. ${prof}`}</p>
+					<p className={styles.labResearchDesc}>{"Research Area:"}</p>
+					<div className={styles.labResearchWrapper}>
+						{research.map((research, index) => {
+							return (
+								<div className={styles.labResearch} key={index}>{research}</div>
+							)
+						})}
+					</div>
 				</div>
 			</div>
 		</div>
