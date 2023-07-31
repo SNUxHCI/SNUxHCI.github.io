@@ -1,3 +1,13 @@
+
+- name: HCI
+  fullname: Human-Computer Interaction
+  dept: Computer Science and Engineering
+  prof: Jinwook Seo
+  research: Information Visualization, Visual Analytics, Human-Computer Interaction, Explainable AI
+  url: http://hcil.snu.ac.kr/
+  logo: hci
+  profphoto: jinwook
+
 - name: HCI+D
   fullname: Human-Computer Interaction + Design
   dept: Communications
@@ -42,14 +52,6 @@
   logo: hcs
   profphoto: youngki
 
-- name: HCI
-  fullname: Human-Computer Interaction
-  dept: Computer Science and Engineering
-  prof: Jinwook Seo
-  research: Information Visualization, Visual Analytics, Human-Computer Interaction, Explainable AI
-  url: http://hcil.snu.ac.kr/
-  logo: hci
-  profphoto: jinwook
 
 - name: HCC
   fullname: Human-Centered Computing 
