@@ -1,0 +1,113 @@
+- title: Human-Computer Interaction
+  instructor: Jinwook Seo
+  department: Computer Science and Engineering
+  term: Spring
+  description: This course introduces the fundamental components and practical techniques of Human-Computer Interaction which is a field of study on designing, implementing, and evaluating interactive computing systems for human use. It starts with studying designs of everyday objects to help students to realize the importance of the efficient design of interactive computing systems. Then, HCI theories and techniques on how to involve users in designing and evaluating interactive computing systems will be covered. In this course, students have a chance to apply the HCI theories and techniques to solving practical problems while designing and implementing a team project throughout the semester.
+
+- title: Information Visualization and Visual Analytics
+  instructor: Jinwook Seo
+  department: Computer Science and Engineering
+  term: Fall
+  description: 'Information visualization is a research field that focuses on visual representations and interaction techniques to help users analyze and understand large "abstract" data. Information visualization is an interdisciplinary area where theories and techniques established in many research areas such as human-computer interaction, computer graphics, cognitive psychology, and database are fused together. <br/> <br/>  The objectives of this course are: <br/> - Study the background and the principles of information visualization <br/> - Learn about existing information visualization techniques and systems <br/> - Grain understanding of evaluation methods for information visualization techniques/systems <br/> - Learn how to critique existing visualization techniques and systems <br/> - Build experience on coming up with new information visualization design'
+
+- title: Mobile and Ubiquitous Computing
+  instructor: Youngki Lee
+  department: Computer Science and Engineering
+  term: Spring
+  description: Computing services are penetrating every facet of people’s lives and various industry sectors, enabled by advances in consumer devices such as smartphones, wearables, IoT devices, AR/VR devices along with cloud and edge computing services. This is quickly making Mark Weiser’s vision of ubiquitous computing into reality. Mobile computing systems can be considered as the first step towards ubiquitous computing, which is significantly different from conventional computing systems. They require highly coordinated operations of heterogeneous sensor devices for continuous monitoring of users and surroundings, multi-staged distributed systems to process deep/big sensor data, automated actuators based on uncertain inference results. Furthermore, it is essential to design highly personalized and adaptive system interfaces considering the diversity of users and their situations. In this course, students are expected to learn, apply, and improve core technologies to design and develop mobile computing technologies successfully. The topics will include software systems for smartphones and IoT/wearable/VR/AR devices, machine learning pipelines to extract insights from noisy sensing data, distributed system architecture for efficient mobile computing services, innovative interface and application design, etc.
+
+
+- title: Mobile Computing and Applications
+  instructor: Youngki Lee
+  department: Computer Science and Engineering
+  term: Fall
+  description: 'Currently, computing technology and wireless communication enable us to handle multimedia information "anytime, anyplace". This type of mobile computing systems consist of three different but interrelated structural components: end-terminals, networks and OS/middleware, all of which are integrated to provide application services. Mobile computing is based on distributed computing and embedded system technology and applied to ubiquitous systems, mobile commerce, mobile phones, etc. The objectives of this course are to understand the state of the art of mobile computing technologies, and to get familiar with the development of application software for terminal devices.'
+
+
+- title: Social Network Data Mining and Analysis (Graduate)
+  instructor: Joonhwan Lee
+  department: Communication 
+  term: Spring
+  description: Social computing and analysis of large data sets become important in communication studies. Even those students who don't have engineering background need to understand the technical and structural aspect of social network system in order to research on them. In this course, students will get basic programming skills by learning a scripting language such as Ruby or Python, and then explore web technologies and database systems. Finally, students will learn how to build their own social network system using the web development framework. While doing this, students will also learn data mining techniques and the methods to analyze social network system such as Twitter.
+
+- title: HCI Theory and Practice (Undergraduate)
+  instructor: Joonhwan Lee
+  department: Communication
+  term: Spring
+  description: In understanding the social and industrial implications of digital communication technologies, the starting point becomes to explore the basic nature of the human-computer interface and computer mediated human communication. This course introduces major theories and research findings of Human Computer Interface and Computer Mediated Communication.
+
+- title: HCI Research Methods (Graduate)
+  instructor: Joonhwan Lee
+  department: Communication 
+  term: Fall
+  description: Human-Computer Interaction(HCI) is an interdisciplinary area where professionals from computer science, social science, engineering and design play important roles together. As we use computers as critical tools in our daily lives, we also encounter various problems caused by computers. The goal of HCI is to discover problems in the working context and try to find solutions and methodologies to address them. In this course, students will explore research topics in HCI by learning core theories and then experience human-centered research methods by conducting actual research. Meanwhile, students will learn various research methods such as interaction design, prototyping, and usability testing.
+
+- title: Media Information and Culture (Undergraduate)
+  instructor: Joonhwan Lee
+  department: Communication 
+  term: Spring
+  description: The objective of this course is to provide students with the current understanding of the variety of communication and information technology-related fields. By inviting outside communication professionals or researchers students have chance to learn what happens in the field and also to apply the knowledge earned through regular classes to the real-world problems. Students will eventually obtain problem-solving skills and get tips on career planning as well. The speakers will be invited in the fields of broadcasting, film, newspaper, internet contents providers, media service firms, software, game, sound, interaction design, communication strategy, PR & advertising, and the like.
+
+- title: Data Journalism (Undergraduate)
+  instructor: Joonhwan Lee
+  department: Communication 
+  term: Fall
+  description: Data journalism reflects the increased role of digital data in the information production and distribution. In this class, students learn how to analyze data and use data as the source of data journalism using python programming language.
+
+
+- title: User eXperience
+  instructor: Joongseek Lee
+  department: Intelligence and Information
+  term: Spring
+  description: User experience is the process of improving user satisfaction while using information systems and services. The concept emerged in the 90s with the development of the service industry and the web, and became even more important with the ubiquity of smartphones in the 2000s. However, the emergence of transcendent technologies such as artificial intelligence, the Internet of Things, robotics, and VR in the era of the Fourth Industrial Revolution has created a need for a new understanding of user experience. In this context, this class covers traditional methods of experience analysis and design, and examines their limitations and shortcomings. It critiques the limited view of experience as merely instrumental or compositional, and attempts to distinguish and understand different experience modalities. The class will cover traditional methods of designing experiences and ICT-based information experiences, and will go through the process of experiencing, recording, and organizing experiences. The class will then discuss the speculative ontology needed to analyze and understand the new experiences brought about by transcendent technologies, and how they can be captured and organized.
+
+- title: Human Computer Interaction
+  instructor: Joongseek Lee
+  department: Intelligence and Information
+  term: Fall
+  description: Human-Computer Interaction (HCI) is a multidisciplinary field of study focusing on the design of computer technology and, in particular, the interaction between humans (the users) and computers. While initially concerned with computers, HCI has since expanded to cover almost all forms of information technology design. Information systems, including computers, have now become indispensable systems for everyday life and work. However, integrating these systems with human processes can present complex problems, primarily due to their abstract and symbolic nature, along with the issue of surrogate operation. The field of HCI seeks to solve these problems. HCI is a mediation discipline that focuses on the mediation between humans and technology, aiming to create better tools. Through this mediation process, HCI's goal is to develop interfaces that are intuitive, easy to learn, error-free, and provide high satisfaction for the users. The discipline of HCI requires multidisciplinary knowledge, including ergonomics, cognitive science, and it is currently undergoing a transition towards phenomenology. In this introductory course on HCI, students will accumulate knowledge in the domain of HCI while learning about its history and various research methodologies. We will explore the fundamental challenges of human-computer interaction, the diverse theoretical perspectives that underpin the field, and the methods used in HCI research.
+
+
+- title : Data Analysis and Visualization
+  instructor: Hyunwoo Park
+  department: Data Science
+  term : Fall
+  description : Businesses and organizations today collect and store unprecedented quantities of data. In order to make informed decisions with such a massive amount of the accumulated data, organizations seek to adopt and utilize data mining and machine learning techniques. Applying advanced techniques must be preceded by a careful examination of the raw data. This step becomes increasingly important and also easily overlooked as the amount of data increases because human examination is prone to fail without adequate tools to describe a large dataset. Another growing challenge is to communicate a large dataset and complicated models with human decision makers. Exploratory data analysis, and visualizations in particular, helps find patterns in the data and communicate the insights in an effective manner. This course aims to equip students with methods and techniques to summarize and communicate the underlying patterns of different types of data. In addition to creating high-quality static visualizations, this course teaches students how to build an interactive visual analysis system
+
+- title: Statistical Analysis for Information Studies
+  instructor: Bongwon Suh
+  department: Intelligence and Information
+  term: Fall
+  description: In order to properly evaluate the impact of systems and prototypes interacting with humans, it is important to design a robust user study since well-designed experiments allow researchers to draw valuable insights. The course will also include 1) basic Statistics, 2) planning the user studies, 3) design of experiments, 4) performing experiment with the experiment protocol, 5) analysis of the result, and 6) documenting and presenting the result of the study.
+
+
+- title: Topics in Information Studies
+  instructor: Bongwon Suh
+  department: Intelligence and Information
+  term: Fall
+  description: This course deals with the current issues in information system studies. Thus, the theme of the lecture may be different according to the lecturer or student's needs in every semester.
+
+
+- title: Social Computing
+  instructor: Bongwon Suh
+  department: Intelligence and Information
+  term: Spring
+  description: As the activity and engagement in online social media has increased substantially, a huge volume of user generated data becomes available online every day. This opens up a great opportunity and a challenge to investigate interesting communication patterns and extract useful information from content shared within the social network. In this class, I plan to explore topics on social computing including how and why social computing works, what insight we can get out of all the data people leave behind. During the coursework, students will learn to program in Python, the mathematical techniques for mining the web, and skills for working with web APIs for data collection. The course will offer students a hands-on experience on how to apply the various web-mining techniques in real applications.
+
+- title: Topics in Cognitive Computing (Learning Science)
+  instructor: Gahgene Gweon
+  department: Intelligence and Information
+  term: Spring
+  Description: This course covers research topics related to cognitive computing – study and discussion of recent papers and technologies, proposal and conduct of research projects that result in internationally presentable outcomes, and invited talks and in-depth discussions. The main focus can be adjusted each year.
+
+- title: Seminars in Convergence Research
+  instructor: Gahgene Gweon
+  department: Intelligence and Information
+  term: Spring/Fall
+  description: This course is a seminar course and introduces examples of solving problems through a convergent approach in various fields. Students are expected to gain experience in the impact and importance of a converged approach in the process from discovery to resolution of problems by encountering these cases.
+
+- title: Human Information Behavior Research Methods
+  instructor: Gahgene Gweon
+  department: Intelligence and Information
+  term: Spring
+  description: This course introduces various research methods analyzing human information seeking behavior, especially usability analysis and user experience analysis. In the course, the ways of collecting data, designing usability test experiments and interpreting the data are taught.
