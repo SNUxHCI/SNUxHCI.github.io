@@ -9,13 +9,18 @@
   // size
   width: $sideWidth - $mainHorizontalPadding;
   height: 100vh - $headerHeight;
-  margin-left: $mainHorizontalPadding;
+  padding-left: $mainHorizontalPadding;
+  min-width: 150px;
 
   // flex
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
+  // background
+  background-color: white;
+  z-index: 2;
 
   .navigatorContainer{
     // margin
