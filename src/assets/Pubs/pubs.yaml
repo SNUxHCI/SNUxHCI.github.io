@@ -1,3 +1,219 @@
+- lab: HCC
+  title: "Anti-Money Laundering in Cryptocurrency via Multi-Relational Graph Neural Network"
+  authors: Woochang Hyun, Jaehong Lee, Bongwon Suh
+  venue: "Pacific-Asia Conference on Knowledge Discovery and Data Mining"
+  year: 2023
+
+- lab: HCC
+  title: "A Labeling Task Design for Supporting Recent Algorithmic Needs"
+  authors: Jaeyoun You, Daemin Park, Joo-Yeong Song, Bongwon Suh
+  venue: "2022 IEEE International Conference on Big Data (Big Data)"
+  year: 2022
+
+- lab: HCC
+  title: "Countering Popularity Bias by Regularizing Score Differences"
+  authors: Wondo Rhee, Sung Min Cho, Bongwon Suh
+  venue: "Proceedings of the 16th ACM Conference on Recommender Systems"
+  year: 2022
+
+- lab: HCC
+  title: "Classification of Phonocardiogram Recordings Using Vision Transformer Architecture"
+  authors: Joonyeob Kim, Gibeom Park, Bongwon Suh
+  venue: "2022 Computing in Cardiology (CinC)"
+  year: 2022
+
+- lab: HCC
+  title: "I wrote as if I were telling a story to someone I knew.”: Designing Chatbot Interactions for Expressive Writing in Mental Health"
+  authors: SoHyun Park, Anja Thieme, Jeongyun Han, Sungwoo Lee, Wonjong Rhee, Bongwon Suh
+  venue: "Designing Interactive Systems Conference 2021"
+  year: 2021
+
+- lab: HCC
+  title: "VisLab: Crowdsourcing Visualization Experiments in the Wild"
+  authors: Jinhan Choi, Changhoon Oh, Bongwon Suh, Nam Wook Kim
+  venue: "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: HCC
+  title: "Toward a Unified Framework for Visualization Design Guidelines"
+  authors: Jinhan Choi, Changhoon Oh, Bongwon Suh, Nam Wook Kim
+  venue: "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: ViBA
+  title: "Rare is Beautiful? The Interplay Between Rareness, Technology Search, and Technology Value"
+  authors: Lee J, Jung HJ, Park H.
+  venue: Production and Operations Management
+  year: 2022
+
+- lab: ViBA
+  title: "[Book Review] A History of Data Visualization and Graphic Communication Value"
+  authors: Park H
+  venue: Journal of the American Statistical Association
+  year: 2022
+
+- lab: ViBA
+  title: "When to Signal? Contingencies for Career-Motivated Contributions in Online Collaboration Communities"
+  authors: Lee J, Park H, Zaggl M.
+  venue: Journal of the Association for Information Systems
+  year: 2022
+
+- lab: ViBA
+  title: "Vessel Sharing and its Impact on Maritime Operations and Carbon Emissions"
+  authors: Park H, Blanco C, Bendoly E.
+  venue: Production and Operations Management
+  year: 2022
+
+- lab: ViBA
+  title: "Extended Graph Formulation for the Inequity Aversion Pricing Problem on Social Networks"
+  authors: Chopra S, Park H, Shim S.
+  venue: INFORMS Journal on Computing
+  year: 2022
+
+- lab: UX
+  title: "You said da da...”: A Short Echoing Tweak for Journaling with VA"
+  authors: Jisu Ryou, Kihun Lee, Joongseek Lee
+  venue: "In Proceedings of the CHI Conference on Human Factors in Computing Systems"
+  year: 2023
+
+- lab: UX
+  title: "Hide Your Video, Show Your Action!” Investigating a New Video Conferencing Interface for Virtual Studying"
+  authors: Soobin Cho, Bongwon Suh, Joongseek Lee
+  venue: "Companion Publication of the 2022 Conference on Computer Supported Cooperative Work and Social Computing"
+  year: 2022
+
+- lab: UX
+  title: "Knock Knock, Here Is an Answer from Next Door”: Designing a Knowledge Sharing Chatbot to Connect Residents: Community Chatbot Design Case Study"
+  authors: Sangha Park, Yoonyoung Lee, Soobin Cho, Minjoon Kim, Joongessk Lee
+  venue: "Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing"
+  year: 2021
+
+- lab: UX
+  title: "I Might be Using His… But It is Also Mine!”: Ownership and Control in Accounts Designed for Sharing"
+  authors: Jieun Song, Jaeyoun You, Joongseek Lee
+  venue: "In Proceedings of the CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: UX
+  title: "Which HCI Lab in South Korea Fits Best for Me?: Designing an HCI Lab Browsing System to Support Prospective Students’ Decision-Making Process"
+  authors: Sodam Kim, Myeonggyun Ryu, Joongseek Lee
+  venue: "In Proceedings of the CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: HCI+D
+  title: "DiVRsity: Design and Development of Group Role-Play VR Platform for Disability Awareness Education"
+  authors: Jin, Y., Lee, S., Kim, S., Seo, J., Jung, K., Lim, H., & Lee, J.
+  venue: "In Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)"
+  year: 2023
+
+- lab: HCI+D
+  title: "The Power of Close Others: How Social Interactions Impact Older Adults’ Mobile Shopping Experience"
+  authors: Seo, J., Park, E. Y., Kim, E. H., Lim, H., & Lee, J.
+  venue: "In Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)"
+  year: 2023
+
+- lab: HCI+D
+  title: "Towards a Metaverse Workspace: Opportunities, Challenges, and Design Implications"
+  authors: Park, H., Ahn, D., & Lee, J.
+  venue: "In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems"
+  year: 2023
+
+- lab: HCI+D
+  title: "IntroBot: Exploring the Use of Chatbot-assisted Familiarization in Online Collaborative Groups"
+  authors: Shin, D., Kim, S., Shang, R., Lee, J., & Hsieh, G.
+  venue: "In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems"
+  year: 2023
+
+- lab: HCI+D
+  title: "Voices of Sexual Assault Survivors: Understanding Survivors’ Experiences of Interactional Breakdowns and Design Ideas for Solutions"
+  authors: Park, H., Forlizzi, J., & Lee, J.
+  venue: "In Designing Interactive Systems Conference"
+  year: 2022
+
+- lab: HCI+D
+  title: "Designing and evaluating a chatbot for survivors of image-based sexual abuse"
+  authors: Maeng, W., & Lee, J.
+  venue: "In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems"
+  year: 2022
+
+- lab: HCI+D
+  title: "Personalization Trade-offs in Designing a Dialogue-based Information System for Support-Seeking of Sexual Violence Survivors"
+  authors: Kim, H., Hwang, Y., Lee, J., Kwon, Y., Park, Y., & Lee, J.
+  venue: "In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems"
+  year: 2022
+
+- lab: HCI+D
+  title: "Designing fair AI in human resource management: Understanding tensions surrounding algorithmic evaluation and envisioning stakeholder-centered solutions"
+  authors: Park, H., Ahn, D., Hosanagar, K., & Lee, J.
+  venue: "In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems"
+  year: 2022
+
+- lab: HCI+D
+  title: "Let's Talk@ Clubhouse: Exploring Voice-Centered Social Media Platform and its Opportunities, Challenges, and Design Guidelines"
+  authors: Jung, K., Park, Y., Kim, H., & Lee, J.
+  venue: "In CHI Conference on Human Factors in Computing Systems Extended Abstracts"
+  year: 2022
+
+- lab: HCI+D
+  title: "SportLight: statistically principled crowdsourcing method for sports highlight selection"
+  authors: Jung, J., Ha, S., Son, W., Lee, J., & Won, J. H.
+  venue: "Journal of the Korean Statistical Society"
+  year: 2022
+
+- lab: HCI+D
+  title: "Trkic G00gle: Why and how users game translation algorithms"
+  authors: Kim, S., Oh, C., Cho, W. I., Shin, D., Suh, B., & Lee, J.
+  venue: "Proceedings of the ACM on Human-Computer Interaction"
+  year: 2021
+
+- lab: HCI+D
+  title: "Applying the persona of user's family member and the doctor to the conversational agents for healthcare"
+  authors: Hwang, Y., Shin, D., Baek, S., Suh, B., & Lee, J.
+  venue: "arXiv preprint arXiv:2109.01729"
+  year: 2021
+
+- lab: HCI+D
+  title: "The effects of feedback and goal on the quality of crowdsourcing tasks"
+  authors: Lim, J. E., Lee, J., & Kim, D.
+  venue: "International Journal of Human–Computer Interaction"
+  year: 2021
+
+- lab: HCI+D
+  title: "Designing a chatbot for survivors of sexual violence: Exploratory study for hybrid approach combining rule-based chatbot and ml-based chatbot"
+  authors: Maeng, W., & Lee, J.
+  venue: "In Asian CHI Symposium 2021"
+  year: 2021
+
+- lab: HCI+D
+  title: "Blahblahbot: Facilitating conversation between strangers using a chatbot with ml-infused personalized topic suggestion"
+  authors: Shin, D., Yoon, S., Kim, S., & Lee, J.
+  venue: "In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: HCI+D
+  title: "Designing a conversational agent for sexual assault survivors: defining burden of self-disclosure and envisioning survivor-centered solutions"
+  authors: Park, H., & Lee, J.
+  venue: "In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: HCI+D
+  title: "Human-AI interaction in human resource management: Understanding why employees resist algorithmic evaluation at workplaces and how to mitigate burdens"
+  authors: Park, H., Ahn, D., Hosanagar, K., & Lee, J.
+  venue: "In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems"
+  year: 2021
+
+- lab: HCI+D
+  title: "Moderator chatbot for deliberative discussion: Effects of discussion structure and discussant facilitation"
+  authors: Kim, S., Eun, J., Seering, J., & Lee, J.
+  venue: "Proceedings of the ACM on Human-Computer Interaction"
+  year: 2021
+
+- lab: HCI+D
+  title: "Design Guidelines of a Computer-Based Intervention for Computer Vision Syndrome: Focus Group Study and Real-World Deployment"
+  authors: Hwang, Y., Shin, D., Eun, J., Suh, B., & Lee, J.
+  venue: "Journal of Medical Internet Research"
+  year: 2021
+
 - lab: HCI
   title: "CLAMS: A Cluster Ambiguity Measure for Estimating Perceptual Variability in Visual Clustering"
   authors: Hyeon Jeon, Ghulam Jilani Quadri, Hyunwook Lee, Paul Rosen, Danielle Albers Szafir, and Jinwook Seo
