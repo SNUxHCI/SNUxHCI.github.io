@@ -102,7 +102,7 @@ const CoursePage = () => {
 								<select 
 									ref={filterInfo.ref}
 									className={styles.filterSelect} 
-									onChange={(e) => { filterInfo.setState(e.target.value); updateFilteredCourses(filterInfo, e.target.value); }}
+									onChange={(e) => { filterInfo.setState(e.target.value != "All" ? e.target.value : null); updateFilteredCourses(filterInfo, e.target.value); }}
 								>
 									<option value={null}>All</option>
 									{filterInfo.option.map((option, index) => {
