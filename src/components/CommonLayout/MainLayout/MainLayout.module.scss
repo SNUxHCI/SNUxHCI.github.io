@@ -9,6 +9,8 @@ main{
   // size
   width: 100% - $sideWidth;
   min-height: 100vh - $headerHeight;
+  min-width: 729px;
+  overflow-x: auto;
 
   // flex
   display: flex;
